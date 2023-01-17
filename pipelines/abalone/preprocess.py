@@ -79,7 +79,7 @@ if __name__ == "__main__":
     )
     
     os.unlink(fn)
-   
+    df.head()
 
     logger.debug("Defining transformers.")
     numeric_features = list(feature_columns_names)
